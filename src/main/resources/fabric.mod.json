@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "gud_cape",
+	"version": "${version}",
+	"name": "gCape",
+	"description": "Custom skin accessories without a third party server!",
+	"authors": [
+		"gudenau"
+	],
+	"icon": "assets/gud_cape/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.gudenau.minecraft.cape.GCape"
+		]
+	},
+	"mixins": [
+		"gud_cape.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": ">=1.20",
+		"java": ">=17"
+	}
+}
